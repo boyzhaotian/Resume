@@ -204,14 +204,16 @@ a {
     text-align: center;
   }
 }
-.content-hd .avator {
+.content-hd .avatar {
   display: block;
   width: 200px;
   height: 200px;
   margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid;
 }
 @media screen and (max-width: 720px) {
-  .content-hd .avator {
+  .content-hd .avatar {
     width: 150px;
     height: 150px;
   }
@@ -301,7 +303,7 @@ a {
   flex: 3;
 }
 .content-hd .skill-level .i-js .in {
-  flex: 6.5;
+  flex: 7;
 }
 .content-hd .skill-level .i-js .out {
   flex: 3.5;

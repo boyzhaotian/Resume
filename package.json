@@ -1,8 +1,15 @@
 {
-  "name": "toad-resume",
+  "name": "sky-resume",
   "version": "0.1.0",
+  "scripts": {
+    "build": "NODE_ENV=production gulp"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-compass": "^2.1.0"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.2",
+    "simple-git": "^1.85.0"
   }
 }

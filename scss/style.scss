@@ -121,11 +121,13 @@ a {
       text-align: center;
     }
   }
-  .avator{
+  .avatar{
     display: block;
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid;  
     @media screen and(max-width: 720px){
       width: 150px;
       height: 150px;
@@ -220,7 +222,7 @@ a {
     }
     .i-js {
       .in {
-        flex: 6.5;
+        flex: 7;
       }
       .out {
         flex: 3.5;
